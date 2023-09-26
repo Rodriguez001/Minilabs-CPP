@@ -1,0 +1,104 @@
+# requirments
+installer g++
+
+# Compilation 
+Une fois dans le dosier TP6/exercice2:
+
+Lancer la commande : make
+Lancer la commande : make clean
+
+# Execution
+lancer la commande : ./Embedding_Vector
+
+Exemple d''execution: 
+
+
+ La liste des fichiers datasets
+.
+..
+00a0c257bf14fdef852490b44a4f46014cfe74ffa4490ceb60ad59e8261b3b6e
+0a0a6170880154d5867d59282228f9ed45267b2083cdf6bb351b1ea456ca4105
+0a0a78000e418ea28fa02e8c162c43396db6141ef8fe876db4027fef04bed663
+0a0aa292817689ff59a02273576ebaa56c9b1bdf9b855a9b1abceb3e3bd505e3
+0a0ae9a50664bf2013f6f05f477ad575cbe735ae96838b8c70c1d2e257b0bf5c
+0a0b0e06c43bf1b9ef076902ef58c5402cc33067bc92b81c8984d4a2a45abefa
+0a0cc33ef6a0274a2bee3d32c84d9f3100c00fec460b1f4ae25b8fd7a8b2756b
+0a0d0f8ec83af26242db0fe487d65913750a0e86d8bf0c022750a9afadcee668
+0a0d6d6a759a9abb70131df2b54386b09d0aa51a970029e728583a9e09bc1496
+0a0e9f9d4823f1a18b850390df480057ba6a1cc476aa13814bd6ae0aa89eb71b
+
+App_name: ./Data/.
+
+App_name: ./Data/..
+
+App_name: ./Data/00a0c257bf14fdef852490b44a4f46014cfe74ffa4490ceb60ad59e8261b3b6e
+Feature_name: feature::android.hardware.wifi
+Feature_name: feature::android.hardware.screen.portrait
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0a6170880154d5867d59282228f9ed45267b2083cdf6bb351b1ea456ca4105
+Feature_name: feature::android.hardware.screen.portrait
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0a78000e418ea28fa02e8c162c43396db6141ef8fe876db4027fef04bed663
+Feature_name: feature::android.hardware.wifi
+Feature_name: feature::android.hardware.screen.landscape
+Feature_name: feature::android.hardware.screen.portrait
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0aa292817689ff59a02273576ebaa56c9b1bdf9b855a9b1abceb3e3bd505e3
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0ae9a50664bf2013f6f05f477ad575cbe735ae96838b8c70c1d2e257b0bf5c
+Feature_name: feature::android.hardware.screen.landscape
+Feature_name: feature::android.hardware.screen.portrait
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0b0e06c43bf1b9ef076902ef58c5402cc33067bc92b81c8984d4a2a45abefa
+Feature_name: feature::android.hardware.screen.portrait
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0cc33ef6a0274a2bee3d32c84d9f3100c00fec460b1f4ae25b8fd7a8b2756b
+Feature_name: feature::android.hardware.wifi
+Feature_name: feature::android.hardware.location
+Feature_name: feature::android.hardware.location.gps
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0d0f8ec83af26242db0fe487d65913750a0e86d8bf0c022750a9afadcee668
+Feature_name: feature::android.hardware.wifi
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0d6d6a759a9abb70131df2b54386b09d0aa51a970029e728583a9e09bc1496
+Feature_name: feature::android.hardware.touchscreen
+
+App_name: ./Data/0a0e9f9d4823f1a18b850390df480057ba6a1cc476aa13814bd6ae0aa89eb71b
+Feature_name: feature::android.hardware.screen.landscape
+Feature_name: feature::android.hardware.touchscreen
+
+Affichage des résultats de la vectorisation
+
+./Data/. :     Embedding vector = [0, 0, 0, 0, 0, 0]
+
+./Data/.. :     Embedding vector = [0, 0, 0, 0, 0, 0]
+
+./Data/00a0c257bf14fdef852490b44a4f46014cfe74ffa4490ceb60ad59e8261b3b6e :     Embedding vector = [0, 0, 0, 1, 1, 1]
+
+./Data/0a0a6170880154d5867d59282228f9ed45267b2083cdf6bb351b1ea456ca4105 :     Embedding vector = [0, 0, 0, 1, 1, 0]
+
+./Data/0a0a78000e418ea28fa02e8c162c43396db6141ef8fe876db4027fef04bed663 :     Embedding vector = [0, 0, 1, 1, 1, 1]
+
+./Data/0a0aa292817689ff59a02273576ebaa56c9b1bdf9b855a9b1abceb3e3bd505e3 :     Embedding vector = [0, 0, 0, 1, 0, 0]
+
+./Data/0a0ae9a50664bf2013f6f05f477ad575cbe735ae96838b8c70c1d2e257b0bf5c :     Embedding vector = [0, 0, 1, 1, 1, 0]
+
+./Data/0a0b0e06c43bf1b9ef076902ef58c5402cc33067bc92b81c8984d4a2a45abefa :     Embedding vector = [0, 0, 0, 1, 1, 0]
+
+./Data/0a0cc33ef6a0274a2bee3d32c84d9f3100c00fec460b1f4ae25b8fd7a8b2756b :     Embedding vector = [1, 1, 0, 1, 0, 1]
+
+./Data/0a0d0f8ec83af26242db0fe487d65913750a0e86d8bf0c022750a9afadcee668 :     Embedding vector = [0, 0, 0, 1, 0, 1]
+
+./Data/0a0d6d6a759a9abb70131df2b54386b09d0aa51a970029e728583a9e09bc1496 :     Embedding vector = [0, 0, 0, 1, 0, 0]
+
+./Data/0a0e9f9d4823f1a18b850390df480057ba6a1cc476aa13814bd6ae0aa89eb71b :     Embedding vector = [0, 0, 1, 1, 0, 0]
+
+

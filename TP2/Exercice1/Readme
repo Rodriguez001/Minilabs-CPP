@@ -1,0 +1,13 @@
+# requirments
+installer g++
+
+# Compilation 
+Une fois dans le dosier Exercice 1:
+
+Lancer la commande : Make
+
+# Execution
+lancer la commande : ./Exercice1
+
+
+

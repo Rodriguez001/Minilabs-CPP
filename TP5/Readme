@@ -1,0 +1,56 @@
+# requirments
+installer g++
+
+# Compilation 
+Une fois dans le dosier TP5:
+
+Lancer la commande : make
+Lancer la commande : make clean
+
+# Execution
+lancer la commande : ./Robot
+
+Exemple d''execution: 
+
+Entre les parametres d'un robot sous la forme: 'nom' 'type' prix 
+robottest typetest 3000
+
+Affichage des 2 robots de test 
+robottest typetest 3000
+RobotKop Robot_type 1000
+
+=======liste de robots=======
+LittleSophia Humanoid 150
+Roomba Autonomous 500
+ParrotARDrone Teleoperated 150
+Atlas Humanoid 750000
+Wall-e Pre-programmed 344
+NAO Humanoid 7000
+TurtleBot Autonomous 590
+Spot Explorer 74500
+Curiosity Rover 2.5e+06
+Kuka Industry 21900
+Mindstorm Education 300
+daVinci Health 6.5e+07
+
+ Searching Wall-e from the list..... 
+
+Oui Wall-e est bien un robot de la liste 
+
+liste triée de robots 
+
+=======liste de robots=======
+LittleSophia Humanoid 150
+ParrotARDrone Teleoperated 150
+Mindstorm Education 300
+Wall-e Pre-programmed 344
+Roomba Autonomous 500
+TurtleBot Autonomous 590
+NAO Humanoid 7000
+Kuka Industry 21900
+Spot Explorer 74500
+Atlas Humanoid 750000
+Curiosity Rover 2.5e+06
+daVinci Health 6.5e+07
+ Saving done!!
+Thanks for testing the code :-)

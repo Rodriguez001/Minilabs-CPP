@@ -1,0 +1,26 @@
+# requirments
+installer g++
+
+# Compilation 
+Une fois dans le dosier TP6/exercice1:
+
+Lancer la commande : make
+Lancer la commande : make clean
+
+# Execution
+lancer la commande : ./Stack
+
+Exemple d''execution: 
+
+Is stack empty? true
+Stack size: 5
+Stack top: 100
+Stack size after pop: 4
+Stack top after pop: 40.3
+Stack size after pop: 3
+Stack top after pop: 33.5
+Is stack empty? false
+Stack size after pop: 1
+Stack top after pop: 12
+Is stack empty? true
+

@@ -1,0 +1,37 @@
+# requirments
+installer g++
+
+# Compilation 
+Une fois dans le dosier TP4:
+
+Lancer la commande : make
+Lancer la commande : make clean
+
+# Execution
+lancer la commande : ./tp4
+
+Exemple d'execution: 
+
+Creating directory ...!!
+Enter a name for the folder?
+TP4
+Folder name: TP4 and List of files:
+file name : Text1.txt    Size= 10      Encoding: Unicode 
+file name : image1.png   Size= 100     Width= 300   Height= 200 
+file name : video1.avi    Size= 100     Duration= 36000 
+file name : Text2.doc    Size= 100      Encoding: Unicode 
+file name : image2.jpg   Size= 300     Width= 20   Height= 15 
+file name : video2.mp4    Size= 450     Duration= 400 
+file name : Text3.docx    Size= 1000      Encoding: Ascii 
+file name : image3.gif   Size= 8000     Width= 400   Height= 200 
+file name : video3.wmv    Size= 500     Duration= 4000 
+file name : Mon_Cv.pdf    Size= 360      Encoding: Unicode 
+file name : rodrigue.tiff   Size= 5200     Width= 200   Height= 251 
+file name : Avatar.fly    Size= 45000     Duration= 960000 
+file name : Recommendation.docx    Size= 1000      Encoding: Ascii 
+file name : Ulrich.jpeg   Size= 120     Width= 12   Height= 10 
+file name : Fastandfurous.mkv    Size= 500     Duration= 4000 
+
+le taux moyen de compression du repertoire donné : 41 %
+le taux moyen de compression des fichiers videos du repertoire : 63 %
+Thanks for testing the code :-)

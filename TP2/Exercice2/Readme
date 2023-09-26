@@ -1,0 +1,13 @@
+# requirments
+installer g++
+
+# Compilation 
+Une fois dans le dosier Exercice 2:
+
+Lancer la commande : Make
+
+# Execution
+lancer la commande : ./hanoi
+
+
+

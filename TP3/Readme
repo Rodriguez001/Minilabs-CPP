@@ -1,0 +1,42 @@
+# requirments
+installer g++
+
+# Compilation 
+Une fois dans le dosier TP3:
+
+Lancer la commande : make
+Lancer la commande : make clean
+
+# Execution
+lancer la commande : ./time
+
+Exemple d'execution: 
+
+Enter 'exit' or 'go' to stop de loop
+go
+Waiting input times time1 and time2: in this form hh mm ss
+time1 : 
+17 02 40
+time2 : 
+17 02 50
+test de l'operateur <
+Heure : 17h2min40s est anterieure à Heure : 17h2min50s
+test de l'operateur(egalité) == 
+les heures ne sont pas égales
+test de l'operateur != (difference)
+les heures sont differentes
+test de l'operateur <=
+Heure : 17h2min40s est anterieure à Heure : 17h2min50s
+test de l'operateur >
+Heure : 17h2min40s est n'est pas posterieure à Heure : 17h2min50s
+test de l'operateur <=
+Heure : 17h2min40s est posterieure à Heure : 17h2min50s
+Test de l'incrementation ++
+Avant increment ++Heure : 17h2min40s
+Apres increment ++ : Heure : 18h3min41s
+Test de la décrementation --
+Avant decrement --Heure : 18h3min41s
+Apres decrement -- : Heure : 17h2min40s
+Enter 'exit' to stop de loop
+exit
+Thanks for testing the code :-)
